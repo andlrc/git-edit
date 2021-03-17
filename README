@@ -1,0 +1,39 @@
+GIT-EDIT(1)                    Extension to git                    GIT-EDIT(1)
+
+
+
+NAME
+       git edit - edit a specific git commit
+       git drop - drop a specific git commit
+       git reword - reword a specific git commit
+
+SYNOPSIS
+       git edit { <hash> | --continue | --abort }
+       git drop { <hash> | --continue | --abort }
+       git reword { <hash> | --continue | --abort }
+
+DESCRIPTION
+       Edit, drop or reword a specific commit message
+
+       Specify  which  commit  to  change and an interactive rebase will start
+       with that specific commit.
+
+OPTIONS
+       --continue
+              continue the rebase
+
+       --abort
+              abort the reabase show help
+
+AUTHOR
+       Written by Andreas Louv <andraes@louv.dk>
+
+REPORTING BUGS
+       Use the GitHub bug tracker <https://github.com/andlrc/git-edit/issues/>
+
+SEE ALSO
+       git(1)
+
+
+
+                                  03/01/2021                       GIT-EDIT(1)
